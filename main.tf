@@ -6,7 +6,7 @@ resource "aws_instance" "main" {
   subnet_id = local.private_subnet_ids
   vpc_id = local.vpc_id
   tags =merge(local.common_tags, {
-      Name = "${var.project_name}-${var.environment}-${component}"
+      Name = "${var.project_name}-${var.environment}-${var.component}"
       Terraform = "true"
   }
   )

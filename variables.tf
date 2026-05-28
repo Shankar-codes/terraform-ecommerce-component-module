@@ -1,6 +1,6 @@
 variable "project_name" {
   type = string
-  default = "ellamma-roboshop"
+  default = "roboshop"
 }
 
 variable "environment" {

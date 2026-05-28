@@ -1,10 +1,10 @@
 variable "project_name" {
-  type        = string
-  default = "ellamma-roboshop"
+  type = string
+  default = "roboshop"
 }
 
 variable "environment" {
-  type        = string
+  type = string
   default = "dev"
 }
 
